@@ -1,18 +1,50 @@
-# Personal Portfolio
+# Mauro Infante - Personal Portfolio
 
-In this webiste you can look for any of my personal information and all my side projetcs 
+> Industrial Engineer & Software Developer specializing in web development and process automation.
 
+## 🚀 About Me
 
-# More info about me
+I combine industrial engineering expertise with software development skills to create efficient, scalable solutions. Currently focused on:
 
-I am an **Industrial Engineer** and **Junior Developer**, aiming to specialize in **web development**. Currently, I am learning **JavaScript** as my main programming language and exploring tools like **Visual Studio Code, Git, LazyGit, and Arch Linux** with **Wayland/Hyperland**.  
+- 💻 Full-stack web development
+- 🛠 Process automation
+- 📊 Data management
+- 🐧 Linux system optimization
 
-##  What I Like  
-- Programming and process automation.  
-- Linux customization (Arch Linux user).  
-- Web development and data management.  
-- Learning new technologies and improving my skills.  
+## 🛠 Tech Stack
 
-## 🌐 Profiles  
-- **LinkedIn:** [Mauro Infante](https://www.linkedin.com/in/mauro-infante)  
-- **GitHub:** [maurux01](https://github.com/maurux01)  
+### Languages & Frameworks
+- JavaScript
+- HTML/CSS
+- Python
+
+### Development Tools
+- VS Code
+- Git
+- LazyGit
+
+### Environment
+- Arch Linux
+- Wayland/Hyperland
+- Terminal-focused workflow
+
+## 🌟 Featured Projects
+
+1. **Personal Portfolio Website**
+   - Modern, responsive design
+   - Cyberpunk-inspired UI/UX
+   - Built with HTML, CSS, JavaScript
+
+2. **[Project Name]**
+   - Brief description
+   - Technologies used
+   - [Link to demo/repo]
+
+## 📫 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mauro_Infante-blue)](https://www.linkedin.com/in/mauro-infante)
+[![GitHub](https://img.shields.io/badge/GitHub-maurux01-darkgreen)](https://github.com/maurux01)
+
+## 📝 License
+
+[MIT License](LICENSE)
