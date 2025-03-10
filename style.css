@@ -1,12 +1,12 @@
 /* Global body styles */
 body {
     font-family: "Arial", sans-serif;
-    background: linear-gradient(
-        135deg,
-        #2f2f3d,
-        #1e1e2e
-    ); /* Dark gradient background */
-    color: #cdd6f4; /* Light text */
+    background: linear-gradient(135deg,
+            #2f2f3d,
+            #1e1e2e);
+    /* Dark gradient background */
+    color: #cdd6f4;
+    /* Light text */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -23,7 +23,8 @@ h1 {
     font-weight: bold;
     margin-top: 10vh;
     text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.1);
-    color: #f4f4f9; /* Slightly lighter for emphasis */
+    color: #f4f4f9;
+    /* Slightly lighter for emphasis */
 }
 
 /* Subheading styles */
@@ -31,7 +32,8 @@ h2 {
     font-size: 36px;
     margin-top: 3vh;
     text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.1);
-    color: #b8e6c1; /* Soft greenish color for contrast */
+    color: #b8e6c1;
+    /* Soft greenish color for contrast */
 }
 
 /* Footer styles */
@@ -39,7 +41,8 @@ footer {
     font-size: 22px;
     margin-top: 5vh;
     text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.1);
-    color: #b8e6c1; /* Light greenish text */
+    color: #b8e6c1;
+    /* Light greenish text */
 }
 
 /* Ensure the layout is responsive */
