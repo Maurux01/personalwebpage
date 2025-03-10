@@ -4,23 +4,42 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mauro Infante - Personal Website</title>
+    <meta name="description" content="Mauro Infante - Industrial and Software Engineer portfolio website" />
+    <meta name="keywords" content="software engineer, web development, frontend, backend, industrial engineer" />
+    <meta property="og:title" content="Mauro Infante - Personal Website" />
+    <meta property="og:description" content="Portfolio website showcasing my projects and skills in software development" />
+    <title>Mauro Infante - Software Engineer Portfolio</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <header>
         <h1>Hi there, I'm Mauro Infante</h1>
-        <h2>Industrial and Junior Software Engineer</h2>
+        <h2>Industrial Engineer & Software Developer</h2>
+        <div class="social-links">
+            <a href="https://github.com/maurux01" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
     </header>
 
     <main>
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I'm an Industrial Engineer currently pursuing a career
-                transition into software engineering. I'm self-learning
-                programming with a focus on front-end development.
+                I'm an Industrial Engineer transitioning into software engineering, combining analytical thinking 
+                with technical expertise. Passionate about creating efficient solutions through code, I specialize 
+                in front-end development while continuously expanding my full-stack capabilities.
             </p>
         </section>
 
@@ -29,65 +48,99 @@
 
             <div class="skills-category">
                 <h3>Technical Skills</h3>
-                <ul>
-                    <li>Front-end Development (HTML, CSS, JavaScript)</li>
-                    <li>Back-end Development (Node.js, Python)</li>
-                    <li>Database Management (SQL, MongoDB)</li>
-                    <li>Version Control (Git, GitHub)</li>
-                    <li>Agile Methodologies (Scrum, Kanban)</li>
-                </ul>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-server"></i>
+                        <span>Node.js, Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL, MongoDB</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git, GitHub</span>
+                    </div>
+                </div>
             </div>
 
             <div class="skills-category">
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Problem Solving</li>
-                    <li>Communication Skills</li>
-                    <li>Teamwork</li>
-                    <li>Leadership</li>
-                    <li>Project Management</li>
-                    <li>Time Management</li>
-                    <li>Adaptability</li>
-                    <li>Attention to Detail</li>
-                </ul>
+                <h3>Professional Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">Problem Solving</div>
+                    <div class="skill-item">Team Leadership</div>
+                    <div class="skill-item">Project Management</div>
+                    <div class="skill-item">Agile Methodologies</div>
+                </div>
             </div>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <strong>Python Posture Bot</strong>
-                    <p>
-                        A Python script that helps users correct their
-                        posture by providing reminders and tips throughout
-                        the day.
-                    </p>
-                </li>
-                <li>
-                    <strong>Web Page Landing Page</strong>
-                    <p>
-                        Designed a responsive landing page for a fictional
-                        company, utilizing modern web technologies.
-                    </p>
-                </li>
-                <li>
-                    <strong>Complete Usable Webpage Test</strong>
-                    <p>
-                        A fully functional webpage with integrated front-end
-                        and back-end components, featuring user
-                        authentication and a simple database.
-                    </p>
-                </li>
-            </ul>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Python Posture Bot</h3>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Desktop App</span>
+                    </div>
+                    <p>A smart application that helps users maintain good posture through AI-powered monitoring and timely reminders.</p>
+                    <div class="project-links">
+                        <a href="#" class="button">View Demo</a>
+                        <a href="#" class="button">GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Modern Landing Page</h3>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <p>Responsive landing page showcasing modern design principles and smooth animations.</p>
+                    <div class="project-links">
+                        <a href="#" class="button">Live Demo</a>
+                        <a href="#" class="button">GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Full-Stack Web Application</h3>
+                    <div class="project-tags">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <p>Complete web application featuring user authentication, database integration, and responsive design.</p>
+                    <div class="project-links">
+                        <a href="#" class="button">Live Demo</a>
+                        <a href="#" class="button">GitHub</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Connect</h2>
+            <p>I'm always interested in new opportunities and collaborations.</p>
+            <div class="contact-buttons">
+                <a href="mailto:your.email@example.com" class="button">Email Me</a>
+                <a href="your-resume.pdf" class="button" target="_blank">Download Resume</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>
-            Created by
-            <a href="https://github.com/maurux01" target="_blank" rel="noopener noreferrer">Mauro Infante</a>
-        </p>
+        <p>© 2024 Mauro Infante. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://github.com/maurux01" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
     </footer>
 
     <script src="script.js"></script>
