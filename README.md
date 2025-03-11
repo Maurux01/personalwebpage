@@ -1,6 +1,7 @@
 # Mauro Infante - Personal Portfolio
 
-> Industrial Engineer & Software Developer specializing in web development and process automation.
+![image](https://github.com/user-attachments/assets/ee3998db-4e32-4967-b37a-37f1659860ab)
+
 
 ## 🚀 About Me
 
