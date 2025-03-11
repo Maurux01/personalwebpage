@@ -257,6 +257,16 @@ section p {
     transform: scale(1.2);
 }
 
+/* Contact info styles */
+.contact-info {
+    text-align: center;
+}
+
+.contact-info p {
+    text-align: center;
+    margin: 1rem auto;
+}
+
 /* Animations */
 @keyframes glitch {
     0% { transform: translate(0) }
