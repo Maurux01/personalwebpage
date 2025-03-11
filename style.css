@@ -267,6 +267,16 @@ section p {
     margin: 1rem auto;
 }
 
+/* Contact section specific styles */
+#contact p {
+    text-align: center !important; /* Override any other text-align properties */
+    color: #e6fff5;
+    margin: 1rem auto;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    max-width: 800px;
+}
+
 /* Animations */
 @keyframes glitch {
     0% { transform: translate(0) }
