@@ -46,6 +46,7 @@ h1 {
     animation: glitch 3s infinite;
     position: relative;
     letter-spacing: 1px;
+    margin-bottom: 20px; /* Add margin to the bottom */
 }
 
 h1::before,
@@ -132,6 +133,10 @@ section p {
     margin: 1rem auto;
     line-height: 1.8;
     font-size: 1.1rem;
+}
+
+section#about {
+    margin-top: 100px; /* Increased margin-top */
 }
 
 /* GitHub Stats Section */
@@ -277,6 +282,18 @@ section p {
     max-width: 800px;
 }
 
+/* Profile picture styles */
+.profile-pic {
+    width: 100px; /* Slightly larger width */
+    height: 100px; /* Slightly larger height */
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover; /* Ensures the image fills the circle */
+    margin-right: 10px; /* Adjust spacing as needed */
+    vertical-align: middle; /* Align to the middle */
+    animation: fadeIn 1s ease-in-out; /* Add fade-in animation */
+    margin-bottom: -15px; /* Adjust this value to move the image up */
+}
+
 /* Animations */
 @keyframes glitch {
     0% { transform: translate(0) }
@@ -295,6 +312,11 @@ section p {
 @keyframes gridMove {
     0% { transform: translateY(0); }
     100% { transform: translateY(30px); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
 }
 
 /* Responsive design */
